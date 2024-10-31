@@ -8,6 +8,7 @@ public class PlayerAnimator : MonoBehaviour {
     private Animator animator;
 
     private const string Is_Walking = "IsWalking";
+
     private void Awake() {
         animator = GetComponent<Animator>();
 
